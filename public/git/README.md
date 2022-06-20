@@ -1,10 +1,10 @@
 # Git使用
 
-一、注册账号
+# 一、注册账号
 
 [Github官网](https://github.com/)：https://github.com/
 
-二、创建仓库
+# 二、创建仓库
 
 注册账号，登录成功之后，选择`“+”`，点击右上角的`New repository`，创建一个新的仓库
 
@@ -114,5 +114,83 @@ Hi shanpengnian! You've successfully authenticated, but GitHub does not provide 
 
 I: 在你要提交的目录下, `git init` 
 II: 和远程刚创建的仓库连接, `git remote add origin git@github.com:shanpengnian/sxpcwlkj-book.git `
-III: push前先将远程repository的修改pull(拉)下来, 避免之前本地仓库和远程仓库不一致, 导致提交出错! 
-`git pull origin master` 
+III: push前先将远程repository的修改pull(拉)下来, 避免之前本地仓库和远程仓库不一致, 导致提交出错! `git pull origin master` 
+
+# 十、本地作出修改并提交
+
+作出修改, 如: 修改文件和增加文件(或者文件夹)
++ 将当前目录所有到暂存区
+ `git add .`
++ 提交你的文件, 添加消息”第一次提交”  
+` git commit -m 'first commit' `
++ 发送你的提交到GitHub  
+`git push origin master`
++ 查看git状态 
+`git status`
+
+# 十一、获取代码
+
+1. git pull：获取最新代码到本地，并自动合并到当前分支
+
+
+//查询当前远程的版本
+
+`git remote -v`
+
+//直接拉取并合并最新代码
+
+示例1：拉取远端origin/master分支并合并到当前分支
+
+`git pull origin master`
+
+示例2：拉取远端origin/dev分支并合并到当前分支
+
+`git pull origin dev`
+
+
+> 分析：不推荐这种方式，因为是直接合并，无法提前处理冲突。
+
+
+2. git fetch + merge: 获取最新代码到本地，然后手动合并分支
+
++ 额外建立本地分支
+
+```
+//查看当前远程的版本
+$ git remote -v 
+//获取最新代码到本地临时分支(本地当前分支为[branch]，获取的远端的分支为[origin/branch])
+$ git fetch origin master:master1  [示例1：在本地建立master1分支，并下载远端的origin/master分支到master1分支中]
+$ git fetch origin dev:dev1[示例1：在本地建立dev1分支，并下载远端的origin/dev分支到dev1分支中]
+//查看版本差异
+$ git diff master1 [示例1：查看本地master1分支与当前分支的版本差异]
+$ git diff dev1    [示例2：查看本地dev1分支与当前分支的版本差异]
+//合并最新分支到本地分支
+$ git merge master1    [示例1：合并本地分支master1到当前分支]
+$ git merge dev1   [示例2：合并本地分支dev1到当前分支]
+//删除本地临时分支
+$ git branch -D master1    [示例1：删除本地分支master1]
+$ git branch -D dev1 [示例1：删除本地分支dev1]
+```
+
+
+> 不推荐这种方式，还需要额外对临时分支进行处理。
+
+
++ 不额外建立本地分支
+
+```
+//查询当前远程的版本
+$ git remote -v
+//获取最新代码到本地(本地当前分支为[branch]，获取的远端的分支为[origin/branch])
+$ git fetch origin master  [示例1：获取远端的origin/master分支]
+$ git fetch origin dev [示例2：获取远端的origin/dev分支]
+//查看版本差异
+$ git log -p master..origin/master [示例1：查看本地master与远端origin/master的版本差异]
+$ git log -p dev..origin/dev   [示例2：查看本地dev与远端origin/dev的版本差异]
+//合并最新代码到本地分支
+$ git merge origin/master  [示例1：合并远端分支origin/master到当前分支]
+$ git merge origin/dev [示例2：合并远端分支origin/dev到当前分支]
+```
+
+
+> 🤞**推荐这种方式**
