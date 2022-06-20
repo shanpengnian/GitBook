@@ -77,3 +77,5 @@ GitBook 会查找 SUMMARY.md 文件中描述的目录和文件，如果没有则
 安装插件
 
 ` gitbook install `
+
+扩展文献：https://www.mapull.com/gitbook/comscore/
