@@ -1,0 +1,749 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Markdown语法 · SXPCWLKJ GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="xijue">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../sxpcwlkj/" />
+    
+    
+    <link rel="prev" href="../gitbook/" />
+    
+
+    
+        <link rel="shortcut icon" href='../../assets/images/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../../assets/images/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" href='../../assets/images/apple-touch-icon.png'>
+    
+    
+        
+        <link rel="apple-touch-icon" sizes="120x120" href="../../assets/images/apple-touch-icon-120x120.png">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/apple-touch-icon-180x180.png">
+        
+    
+
+    <script src="../../gitbook/gitbook-plugin-graph/d3.min.js"></script>
+    <script src="../../gitbook/gitbook-plugin-graph/function-plot.js"></script>    
+
+    
+    <link rel="stylesheet" href="../../gitbook/gitbook-plugin-chart/c3/c3.min.css">
+    <script src="../../gitbook/gitbook-plugin-chart/c3/d3.min.js"></script>
+    <script src="../../gitbook/gitbook-plugin-chart/c3/c3.min.js"></script>
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"shanpengnian","repo":"sxpcwlkj-book","type":"star","size":"large"},{"user":"shanpengnian","type":"follow","width":"230","count":false}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://www.sxpcwlkj.com" target="_blank" class="custom-link">品创网络</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../gitbook/">
+            
+                <a href="../gitbook/">
+            
+                    
+                    GitBook创建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Markdown语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../sxpcwlkj/">
+            
+                <a href="../sxpcwlkj/">
+            
+                    
+                    技术栈
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../sxpcwlkj/admin/">
+            
+                <a href="../sxpcwlkj/admin/">
+            
+                    
+                    项目后端
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../sxpcwlkj/ui/">
+            
+                <a href="../sxpcwlkj/ui/">
+            
+                    
+                    项目前端
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../sxpcwlkj/uniapp/">
+            
+                <a href="../sxpcwlkj/uniapp/">
+            
+                    
+                    项目移动端
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Markdown语法</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#markdown&#x8BED;&#x6CD5;&#x5165;&#x95E8;"><b></b>Markdown&#x8BED;&#x6CD5;&#x5165;&#x95E8;</a></li><li><span class="title-icon "></span><a href="#&#x4E00;&#x3001;&#x57FA;&#x672C;&#x7B26;&#x53F7;"><b></b>&#x4E00;&#x3001;&#x57FA;&#x672C;&#x7B26;&#x53F7;</a></li><li><span class="title-icon "></span><a href="#&#x4E8C;&#x3001;&#x6807;&#x9898;"><b></b>&#x4E8C;&#x3001;&#x6807;&#x9898;</a></li><li><span class="title-icon "></span><a href="#&#x4E00;&#x7EA7;&#x6807;&#x9898;"><b></b>&#x4E00;&#x7EA7;&#x6807;&#x9898;</a></li><ul><li><span class="title-icon "></span><a href="#&#x4E8C;&#x7EA7;&#x6807;&#x9898;"><b></b>&#x4E8C;&#x7EA7;&#x6807;&#x9898;</a></li><ul><li><span class="title-icon "></span><a href="#&#x4E09;&#x7EA7;&#x6807;&#x9898;"><b></b>&#x4E09;&#x7EA7;&#x6807;&#x9898;</a></li></ul></ul><li><span class="title-icon "></span><a href="#&#x4E00;&#x7EA7;&#x6807;&#x9898;_1"><b></b>&#x4E00;&#x7EA7;&#x6807;&#x9898;</a></li><ul><li><span class="title-icon "></span><a href="#&#x4E8C;&#x7EA7;&#x6807;&#x9898;_1"><b></b>&#x4E8C;&#x7EA7;&#x6807;&#x9898;</a></li><ul><li><span class="title-icon "></span><a href="#&#x4E09;&#x7EA7;&#x6807;&#x9898;_1"><b></b>&#x4E09;&#x7EA7;&#x6807;&#x9898;</a></li></ul></ul><li><span class="title-icon "></span><a href="#&#x4E09;&#x3001;&#x5217;&#x8868;"><b></b>&#x4E09;&#x3001;&#x5217;&#x8868;</a></li><ul><li><span class="title-icon "></span><a href="#1&#x65E0;&#x5E8F;&#x5217;&#x8868;"><b></b>1.&#x65E0;&#x5E8F;&#x5217;&#x8868;</a></li><li><span class="title-icon "></span><a href="#2&#x6709;&#x5E8F;&#x5217;&#x8868;"><b></b>2.&#x6709;&#x5E8F;&#x5217;&#x8868;</a></li><li><span class="title-icon "></span><a href="#3&#x5D4C;&#x5957;&#x5217;&#x8868;"><b></b>3.&#x5D4C;&#x5957;&#x5217;&#x8868;</a></li></ul><li><span class="title-icon "></span><a href="#&#x56DB;&#x3001;&#x5F15;&#x7528;&#x8BF4;&#x660E;&#x533A;&#x5757;"><b></b>&#x56DB;&#x3001;&#x5F15;&#x7528;&#x8BF4;&#x660E;&#x533A;&#x5757;</a></li><ul><li><span class="title-icon "></span><a href="#1&#x6B63;&#x5E38;&#x5F62;&#x5F0F;"><b></b>1.&#x6B63;&#x5E38;&#x5F62;&#x5F0F;</a></li><li><span class="title-icon "></span><a href="#2&#x5D4C;&#x5957;&#x533A;&#x5757;"><b></b>2.&#x5D4C;&#x5957;&#x533A;&#x5757;</a></li></ul><li><span class="title-icon "></span><a href="#&#x4E94;&#x3001;&#x4EE3;&#x7801;&#x5757;"><b></b>&#x4E94;&#x3001;&#x4EE3;&#x7801;&#x5757;</a></li><ul><li><span class="title-icon "></span><a href="#1&#x5C11;&#x91CF;&#x4EE3;&#x7801;"><b></b>1.&#x5C11;&#x91CF;&#x4EE3;&#x7801;</a></li><li><span class="title-icon "></span><a href="#2&#x5927;&#x91CF;&#x4EE3;&#x7801;"><b></b>2.&#x5927;&#x91CF;&#x4EE3;&#x7801;</a></li></ul><li><span class="title-icon "></span><a href="#&#x516D;&#x3001;&#x94FE;&#x63A5;"><b></b>&#x516D;&#x3001;&#x94FE;&#x63A5;</a></li><li><span class="title-icon "></span><a href="#&#x4E03;&#x3001;&#x56FE;&#x7247;"><b></b>&#x4E03;&#x3001;&#x56FE;&#x7247;</a></li><ul><li><span class="title-icon "></span><a href="#1&#x884C;&#x5185;&#x5F0F;"><b></b>1.&#x884C;&#x5185;&#x5F0F;</a></li></ul><li><span class="title-icon "></span><a href="#&#x516B;&#x3001;&#x5206;&#x5272;&#x7EBF;"><b></b>&#x516B;&#x3001;&#x5206;&#x5272;&#x7EBF;</a></li><ul><li><span class="title-icon "></span><a href="#----"><b></b>- - -</a></li></ul><li><span class="title-icon "></span><a href="#&#x4E5D;&#x3001;&#x5176;&#x4ED6;"><b></b>&#x4E5D;&#x3001;&#x5176;&#x4ED6;</a></li><ul><li><span class="title-icon "></span><a href="#1&#x5F3A;&#x8C03;&#x5B57;&#x4F53;"><b></b>1.&#x5F3A;&#x8C03;&#x5B57;&#x4F53;</a></li><li><span class="title-icon "></span><a href="#2&#x8F6C;&#x4E49;"><b></b>2.&#x8F6C;&#x4E49;</a></li><li><span class="title-icon "></span><a href="#3&#x5220;&#x9664;&#x7EBF;"><b></b>3.&#x5220;&#x9664;&#x7EBF;</a></li></ul><li><span class="title-icon "></span><a href="#&#x5341;&#x3001;&#x8868;&#x683C;"><b></b>&#x5341;&#x3001;&#x8868;&#x683C;</a></li><li><span class="title-icon "></span><a href="#&#x590D;&#x9009;&#x6846;"><b></b>&#x590D;&#x9009;&#x6846;</a></li><li><span class="title-icon "></span><a href="#&#x6362;&#x884C;"><b></b>&#x6362;&#x884C;</a></li></ul></div><a href="#markdown&#x8BED;&#x6CD5;&#x5165;&#x95E8;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="markdown&#x8BED;&#x6CD5;&#x5165;&#x95E8;"><a name="markdown&#x8BED;&#x6CD5;&#x5165;&#x95E8;" class="anchor-navigation-ex-anchor" href="#markdown&#x8BED;&#x6CD5;&#x5165;&#x95E8;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="markdown&#x8BED;&#x6CD5;&#x5165;&#x95E8;" class="plugin-anchor" href="#markdown&#x8BED;&#x6CD5;&#x5165;&#x95E8;"><i class="fa fa-link" aria-hidden="true"></i></a>Markdown&#x8BED;&#x6CD5;&#x5165;&#x95E8;</h1>
+<blockquote>
+<p>.md&#x5373;markdown&#x6587;&#x4EF6;&#x7684;&#x57FA;&#x672C;&#x5E38;&#x7528;&#x7F16;&#x5199;&#x8BED;&#x6CD5;,&#x662F;&#x4E00;&#x79CD;&#x5FEB;&#x901F;&#x6807;&#x8BB0;&#x3001;&#x5FEB;&#x901F;&#x6392;&#x7248;&#x8BED;&#x8A00;&#xFF0C;&#x73B0;&#x5728;&#x5F88;&#x591A;&#x524D;&#x6BB5;&#x9879;&#x76EE;&#x4E2D;&#x7684;&#x8BF4;&#x660E;&#x6587;&#x4EF6;readme&#x7B49;&#x90FD;&#x662F;&#x7528;.md&#x6587;&#x4EF6;&#x7F16;&#x5199;&#x7684;&#xFF0C;&#x800C;&#x4E14;&#x5F88;&#x591A;&#x4F01;&#x4E1A;&#x4E5F;&#x5728;&#x5728;&#x9F13;&#x52B1;&#x4F7F;&#x7528;&#x8FD9;&#x79CD;&#x7F16;&#x8F91;&#x65B9;&#x5F0F;&#xFF0C;&#x7279;&#x522B;&#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;&#x524D;&#x7AEF;&#x4ECE;&#x4E1A;&#x8005;&#x66F4;&#x8981;&#x5B66;&#x4F1A;&#x4F7F;&#x7528;&#x8FD9;&#x79CD;&#x8BED;&#x8A00;&#x3002;&#x4E0B;&#x9762;&#x5C31;&#x7B80;&#x5355;&#x548C;&#x5927;&#x5BB6;&#x5206;&#x4EAB;&#x4E00;&#x4E9B;.md&#x57FA;&#x672C;&#x8BED;&#x6CD5;</p>
+</blockquote>
+<h1 id="&#x4E00;&#x3001;&#x57FA;&#x672C;&#x7B26;&#x53F7;"><a name="&#x4E00;&#x3001;&#x57FA;&#x672C;&#x7B26;&#x53F7;" class="anchor-navigation-ex-anchor" href="#&#x4E00;&#x3001;&#x57FA;&#x672C;&#x7B26;&#x53F7;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x4E00;&#x3001;&#x57FA;&#x672C;&#x7B26;&#x53F7;" class="plugin-anchor" href="#&#x4E00;&#x3001;&#x57FA;&#x672C;&#x7B26;&#x53F7;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E00;&#x3001;&#x57FA;&#x672C;&#x7B26;&#x53F7;</h1>
+<p>md&#x6587;&#x6863;&#x4E2D;&#x57FA;&#x672C;&#x6807;&#x8BB0;&#x90FD;&#x662F;&#x57FA;&#x4E8E; * - +. &gt; &#x8FD9;&#x51E0;&#x4E2A;&#x7B26;&#x53F7;&#x7684;&#x7EC4;&#x5408;&#x64CD;&#x4F5C;&#x3002;&#x6CE8;&#x610F;&#x7B26;&#x53F7;&#x540E;&#x9762;&#x90FD;&#x8981;&#x6709;&#x4E00;&#x4E2A;&#x7528;&#x4E8E;&#x5206;&#x5272;&#x7B26;&#x53F7;&#x4E0E;&#x5185;&#x5BB9;&#x7684;&#x7A7A;&#x683C;</p>
+<p><code>* - +. &gt;</code></p>
+<p>&#x57FA;&#x672C;&#x4E0A;&#x6240;&#x6709;&#x7684;markdown&#x6807;&#x8BB0;&#x90FD;&#x662F;&#x57FA;&#x4E8E;&#x8FD9;&#x56DB;&#x4E2A;&#x7B26;&#x53F7;&#x6216;&#x7EC4;&#x5408;&#xFF0C;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x662F;&#xFF0C;&#x5982;&#x679C;&#x4EE5;&#x57FA;&#x672C;&#x7B26;&#x53F7;&#x5F00;&#x5934;&#x7684;&#x6807;&#x8BB0;&#xFF0C;&#x6CE8;&#x610F;&#x57FA;&#x672C;&#x7B26;&#x53F7;&#x540E;&#x6709;&#x4E00;&#x4E2A;&#x7528;&#x4E8E;&#x5206;&#x5272;&#x6807;&#x8BB0;&#x7B26;&#x548C;&#x5185;&#x5BB9;&#x7684;&#x7A7A;&#x683C;&#x3002;</p>
+<h1 id="&#x4E8C;&#x3001;&#x6807;&#x9898;"><a name="&#x4E8C;&#x3001;&#x6807;&#x9898;" class="anchor-navigation-ex-anchor" href="#&#x4E8C;&#x3001;&#x6807;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x4E8C;&#x3001;&#x6807;&#x9898;" class="plugin-anchor" href="#&#x4E8C;&#x3001;&#x6807;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E8C;&#x3001;&#x6807;&#x9898;</h1>
+<p>1.&#x524D;&#x9762;&#x5E26;#&#x53F7;&#xFF0C;&#x540E;&#x9762;&#x5E26;&#x6587;&#x5B57;&#xFF0C;&#x5206;&#x522B;&#x8868;&#x793A;h1-h6,&#x53EA;&#x5230;h6&#xFF0C;&#x800C;&#x4E14;h1&#x4E0B;&#x9762;&#x4F1A;&#x6709;&#x4E00;&#x6761;&#x6A2A;&#x7EBF;</p>
+<h1 id="&#x4E00;&#x7EA7;&#x6807;&#x9898;"><a name="&#x4E00;&#x7EA7;&#x6807;&#x9898;" class="anchor-navigation-ex-anchor" href="#&#x4E00;&#x7EA7;&#x6807;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x4E00;&#x7EA7;&#x6807;&#x9898;" class="plugin-anchor" href="#&#x4E00;&#x7EA7;&#x6807;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E00;&#x7EA7;&#x6807;&#x9898;</h1>
+<h2 id="&#x4E8C;&#x7EA7;&#x6807;&#x9898;"><a name="&#x4E8C;&#x7EA7;&#x6807;&#x9898;" class="anchor-navigation-ex-anchor" href="#&#x4E8C;&#x7EA7;&#x6807;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x4E8C;&#x7EA7;&#x6807;&#x9898;" class="plugin-anchor" href="#&#x4E8C;&#x7EA7;&#x6807;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E8C;&#x7EA7;&#x6807;&#x9898;</h2>
+<h3 id="&#x4E09;&#x7EA7;&#x6807;&#x9898;"><a name="&#x4E09;&#x7EA7;&#x6807;&#x9898;" class="anchor-navigation-ex-anchor" href="#&#x4E09;&#x7EA7;&#x6807;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x4E09;&#x7EA7;&#x6807;&#x9898;" class="plugin-anchor" href="#&#x4E09;&#x7EA7;&#x6807;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E09;&#x7EA7;&#x6807;&#x9898;</h3>
+<h4 id="&#x56DB;&#x7EA7;&#x6807;&#x9898;"><a name="&#x56DB;&#x7EA7;&#x6807;&#x9898;" class="anchor-navigation-ex-anchor" href="#&#x56DB;&#x7EA7;&#x6807;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x56DB;&#x7EA7;&#x6807;&#x9898;" class="plugin-anchor" href="#&#x56DB;&#x7EA7;&#x6807;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x56DB;&#x7EA7;&#x6807;&#x9898;</h4>
+<h5 id="&#x4E94;&#x7EA7;&#x6807;&#x9898;"><a name="&#x4E94;&#x7EA7;&#x6807;&#x9898;" class="anchor-navigation-ex-anchor" href="#&#x4E94;&#x7EA7;&#x6807;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x4E94;&#x7EA7;&#x6807;&#x9898;" class="plugin-anchor" href="#&#x4E94;&#x7EA7;&#x6807;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E94;&#x7EA7;&#x6807;&#x9898;</h5>
+<h6 id="&#x516D;&#x7EA7;&#x6807;&#x9898;"><a name="&#x516D;&#x7EA7;&#x6807;&#x9898;" class="anchor-navigation-ex-anchor" href="#&#x516D;&#x7EA7;&#x6807;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x516D;&#x7EA7;&#x6807;&#x9898;" class="plugin-anchor" href="#&#x516D;&#x7EA7;&#x6807;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x516D;&#x7EA7;&#x6807;&#x9898;</h6>
+<pre class="language-"><code># &#x4E00;&#x7EA7;&#x6807;&#x9898;
+## &#x4E8C;&#x7EA7;&#x6807;&#x9898;
+### &#x4E09;&#x7EA7;&#x6807;&#x9898;
+#### &#x56DB;&#x7EA7;&#x6807;&#x9898;
+##### &#x4E94;&#x7EA7;&#x6807;&#x9898;
+###### &#x516D;&#x7EA7;&#x6807;&#x9898;
+</code></pre><p>2.&#x76F8;&#x5F53;&#x4E8E;&#x6807;&#x7B7E;&#x95ED;&#x5408;</p>
+<h1 id="&#x4E00;&#x7EA7;&#x6807;&#x9898;_1"><a name="&#x4E00;&#x7EA7;&#x6807;&#x9898;_1" class="anchor-navigation-ex-anchor" href="#&#x4E00;&#x7EA7;&#x6807;&#x9898;_1"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x4E00;&#x7EA7;&#x6807;&#x9898;" class="plugin-anchor" href="#&#x4E00;&#x7EA7;&#x6807;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E00;&#x7EA7;&#x6807;&#x9898;</h1>
+<h2 id="&#x4E8C;&#x7EA7;&#x6807;&#x9898;_1"><a name="&#x4E8C;&#x7EA7;&#x6807;&#x9898;_1" class="anchor-navigation-ex-anchor" href="#&#x4E8C;&#x7EA7;&#x6807;&#x9898;_1"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x4E8C;&#x7EA7;&#x6807;&#x9898;" class="plugin-anchor" href="#&#x4E8C;&#x7EA7;&#x6807;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E8C;&#x7EA7;&#x6807;&#x9898;</h2>
+<h3 id="&#x4E09;&#x7EA7;&#x6807;&#x9898;_1"><a name="&#x4E09;&#x7EA7;&#x6807;&#x9898;_1" class="anchor-navigation-ex-anchor" href="#&#x4E09;&#x7EA7;&#x6807;&#x9898;_1"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x4E09;&#x7EA7;&#x6807;&#x9898;" class="plugin-anchor" href="#&#x4E09;&#x7EA7;&#x6807;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E09;&#x7EA7;&#x6807;&#x9898;</h3>
+<h4 id="&#x56DB;&#x7EA7;&#x6807;&#x9898;_1"><a name="&#x56DB;&#x7EA7;&#x6807;&#x9898;_1" class="anchor-navigation-ex-anchor" href="#&#x56DB;&#x7EA7;&#x6807;&#x9898;_1"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x56DB;&#x7EA7;&#x6807;&#x9898;" class="plugin-anchor" href="#&#x56DB;&#x7EA7;&#x6807;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x56DB;&#x7EA7;&#x6807;&#x9898;</h4>
+<h5 id="&#x4E94;&#x7EA7;&#x6807;&#x9898;_1"><a name="&#x4E94;&#x7EA7;&#x6807;&#x9898;_1" class="anchor-navigation-ex-anchor" href="#&#x4E94;&#x7EA7;&#x6807;&#x9898;_1"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x4E94;&#x7EA7;&#x6807;&#x9898;" class="plugin-anchor" href="#&#x4E94;&#x7EA7;&#x6807;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E94;&#x7EA7;&#x6807;&#x9898;</h5>
+<h6 id="&#x516D;&#x7EA7;&#x6807;&#x9898;_1"><a name="&#x516D;&#x7EA7;&#x6807;&#x9898;_1" class="anchor-navigation-ex-anchor" href="#&#x516D;&#x7EA7;&#x6807;&#x9898;_1"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x516D;&#x7EA7;&#x6807;&#x9898;" class="plugin-anchor" href="#&#x516D;&#x7EA7;&#x6807;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x516D;&#x7EA7;&#x6807;&#x9898;</h6>
+<pre class="language-"><code># &#x4E00;&#x7EA7;&#x6807;&#x9898; #
+## &#x4E8C;&#x7EA7;&#x6807;&#x9898; ##
+### &#x4E09;&#x7EA7;&#x6807;&#x9898; ###
+#### &#x56DB;&#x7EA7;&#x6807;&#x9898; ####
+##### &#x4E94;&#x7EA7;&#x6807;&#x9898; #####
+###### &#x516D;&#x7EA7;&#x6807;&#x9898; #####
+</code></pre><h1 id="&#x4E09;&#x3001;&#x5217;&#x8868;"><a name="&#x4E09;&#x3001;&#x5217;&#x8868;" class="anchor-navigation-ex-anchor" href="#&#x4E09;&#x3001;&#x5217;&#x8868;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x4E09;&#x3001;&#x5217;&#x8868;" class="plugin-anchor" href="#&#x4E09;&#x3001;&#x5217;&#x8868;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E09;&#x3001;&#x5217;&#x8868;</h1>
+<h2 id="1&#x65E0;&#x5E8F;&#x5217;&#x8868;"><a name="1&#x65E0;&#x5E8F;&#x5217;&#x8868;" class="anchor-navigation-ex-anchor" href="#1&#x65E0;&#x5E8F;&#x5217;&#x8868;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="1&#x65E0;&#x5E8F;&#x5217;&#x8868;" class="plugin-anchor" href="#1&#x65E0;&#x5E8F;&#x5217;&#x8868;"><i class="fa fa-link" aria-hidden="true"></i></a>1.&#x65E0;&#x5E8F;&#x5217;&#x8868;</h2>
+<p>//&#x5F62;&#x5F0F;&#x4E00;</p>
+<ul>
+<li>a</li>
+<li>b</li>
+<li>c
+//&#x5F62;&#x5F0F;&#x4E8C;</li>
+<li>d</li>
+<li>e</li>
+<li>f
+//&#x5F62;&#x5F0F;&#x4E09;</li>
+<li>g</li>
+<li>h</li>
+<li>i</li>
+</ul>
+<pre class="language-"><code>//&#x5F62;&#x5F0F;&#x4E00;
++ a
++ b
++ c
+//&#x5F62;&#x5F0F;&#x4E8C;
+- d
+- e
+- f
+//&#x5F62;&#x5F0F;&#x4E09;
+* g
+* h
+* i
+</code></pre><h2 id="2&#x6709;&#x5E8F;&#x5217;&#x8868;"><a name="2&#x6709;&#x5E8F;&#x5217;&#x8868;" class="anchor-navigation-ex-anchor" href="#2&#x6709;&#x5E8F;&#x5217;&#x8868;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="2&#x6709;&#x5E8F;&#x5217;&#x8868;" class="plugin-anchor" href="#2&#x6709;&#x5E8F;&#x5217;&#x8868;"><i class="fa fa-link" aria-hidden="true"></i></a>2.&#x6709;&#x5E8F;&#x5217;&#x8868;</h2>
+<p>//&#x6B63;&#x5E38;&#x5F62;&#x5F0F;</p>
+<ol>
+<li>abc</li>
+<li>bcd</li>
+<li>cde
+ //&#x9519;&#x5E8F;&#x6548;&#x679C;</li>
+<li>fgh</li>
+<li>ghi</li>
+<li>hij</li>
+</ol>
+<pre class="language-"><code>//&#x6B63;&#x5E38;&#x5F62;&#x5F0F;
+1. abc
+2. bcd
+3. cde
+  //&#x9519;&#x5E8F;&#x6548;&#x679C;
+4. fgh
+5. ghi
+6. hij
+</code></pre><h2 id="3&#x5D4C;&#x5957;&#x5217;&#x8868;"><a name="3&#x5D4C;&#x5957;&#x5217;&#x8868;" class="anchor-navigation-ex-anchor" href="#3&#x5D4C;&#x5957;&#x5217;&#x8868;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="3&#x5D4C;&#x5957;&#x5217;&#x8868;" class="plugin-anchor" href="#3&#x5D4C;&#x5957;&#x5217;&#x8868;"><i class="fa fa-link" aria-hidden="true"></i></a>3.&#x5D4C;&#x5957;&#x5217;&#x8868;</h2>
+<p>//&#x65E0;&#x5E8F;&#x5217;&#x8868;&#x5D4C;&#x5957;</p>
+<ul>
+<li>123<ul>
+<li>abc</li>
+<li>bcd</li>
+<li>cde</li>
+</ul>
+</li>
+<li>465</li>
+<li>789
+//&#x6709;&#x5E8F;&#x5217;&#x8868;&#x5D4C;&#x5957;</li>
+<li>abcd<ol>
+<li>abcde</li>
+<li>abcde</li>
+<li>abcde</li>
+</ol>
+</li>
+<li>bcde</li>
+<li>cde</li>
+</ul>
+<pre class="language-"><code>//&#x65E0;&#x5E8F;&#x5217;&#x8868;&#x5D4C;&#x5957;
++ 123
+    + abc
+    + bcd
+    + cde
++ 465
++ 789
+//&#x6709;&#x5E8F;&#x5217;&#x8868;&#x5D4C;&#x5957;
+1. abcd
+    1. abcde
+    2. abcde
+    3. abcde
+2. bcde
+3. cde
+</code></pre><h1 id="&#x56DB;&#x3001;&#x5F15;&#x7528;&#x8BF4;&#x660E;&#x533A;&#x5757;"><a name="&#x56DB;&#x3001;&#x5F15;&#x7528;&#x8BF4;&#x660E;&#x533A;&#x5757;" class="anchor-navigation-ex-anchor" href="#&#x56DB;&#x3001;&#x5F15;&#x7528;&#x8BF4;&#x660E;&#x533A;&#x5757;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x56DB;&#x3001;&#x5F15;&#x7528;&#x8BF4;&#x660E;&#x533A;&#x5757;" class="plugin-anchor" href="#&#x56DB;&#x3001;&#x5F15;&#x7528;&#x8BF4;&#x660E;&#x533A;&#x5757;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x56DB;&#x3001;&#x5F15;&#x7528;&#x8BF4;&#x660E;&#x533A;&#x5757;</h1>
+<p>&#x5BF9;&#x67D0;&#x4E2A;&#x90E8;&#x5206;&#x505A;&#x7684;&#x5185;&#x5BB9;&#x505A;&#x4E00;&#x4E9B;&#x8BF4;&#x660E;&#x6216;&#x8005;&#x5F15;&#x7528;&#x67D0;&#x67D0;&#x7684;&#x8BDD;&#x7B49;&#xFF0C;&#x53EF;&#x4EE5;&#x7528;&#x8FD9;&#x4E2A;&#x8BED;&#x6CD5;&#x3002;</p>
+<h2 id="1&#x6B63;&#x5E38;&#x5F62;&#x5F0F;"><a name="1&#x6B63;&#x5E38;&#x5F62;&#x5F0F;" class="anchor-navigation-ex-anchor" href="#1&#x6B63;&#x5E38;&#x5F62;&#x5F0F;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="1&#x6B63;&#x5E38;&#x5F62;&#x5F0F;" class="plugin-anchor" href="#1&#x6B63;&#x5E38;&#x5F62;&#x5F0F;"><i class="fa fa-link" aria-hidden="true"></i></a>1.&#x6B63;&#x5E38;&#x5F62;&#x5F0F;</h2>
+<blockquote>
+<p>&#x5F15;&#x7528;&#x5185;&#x5BB9;&#x3001;&#x8BF4;&#x660E;&#x5185;&#x5BB9;&#x3002;&#x5728;&#x8BED;&#x53E5;&#x524D;&#x9762;&#x52A0;&#x4E00;&#x4E2A; &gt; &#xFF0C;&#x6CE8;&#x610F;&#x662F;&#x82F1;&#x6587;&#x7684;&#x90A3;&#x4E2A;&#x53F3;&#x5C16;&#x62EC;&#x53F7;&#xFF0C;&#x6CE8;&#x610F;&#x7A7A;&#x683C;&#xFF0C;&#x5F15;&#x7528;&#x56E0;&#x4E3A;&#x662F;&#x4E00;&#x4E2A;&#x533A;&#x5757;&#xFF0C;&#x7406;&#x8BBA;&#x4E0A;&#x662F;&#x5E94;&#x8BE5;&#x4EC0;&#x4E48;&#x5185;&#x5BB9;&#x90FD;&#x53EF;&#x4EE5;&#x653E;&#xFF0C;&#x6BD4;&#x5982;&#x8BF4;&#xFF1A;&#x6807;&#x9898;&#xFF0C;&#x5217;&#x8868;&#xFF0C;&#x5F15;&#x7528;&#x7B49;&#x7B49;&#x3002;</p>
+</blockquote>
+<p><code>&gt; &#x5F15;&#x7528;&#x5185;&#x5BB9;&#x3001;&#x8BF4;&#x660E;&#x5185;&#x5BB9;&#x3002;&#x5728;&#x8BED;&#x53E5;&#x524D;&#x9762;&#x52A0;&#x4E00;&#x4E2A; &gt; &#xFF0C;&#x6CE8;&#x610F;&#x662F;&#x82F1;&#x6587;&#x7684;&#x90A3;&#x4E2A;&#x53F3;&#x5C16;&#x62EC;&#x53F7;&#xFF0C;&#x6CE8;&#x610F;&#x7A7A;&#x683C;&#xFF0C;&#x5F15;&#x7528;&#x56E0;&#x4E3A;&#x662F;&#x4E00;&#x4E2A;&#x533A;&#x5757;&#xFF0C;&#x7406;&#x8BBA;&#x4E0A;&#x662F;&#x5E94;&#x8BE5;&#x4EC0;&#x4E48;&#x5185;&#x5BB9;&#x90FD;&#x53EF;&#x4EE5;&#x653E;&#xFF0C;&#x6BD4;&#x5982;&#x8BF4;&#xFF1A;&#x6807;&#x9898;&#xFF0C;&#x5217;&#x8868;&#xFF0C;&#x5F15;&#x7528;&#x7B49;&#x7B49;&#x3002;</code></p>
+<h2 id="2&#x5D4C;&#x5957;&#x533A;&#x5757;"><a name="2&#x5D4C;&#x5957;&#x533A;&#x5757;" class="anchor-navigation-ex-anchor" href="#2&#x5D4C;&#x5957;&#x533A;&#x5757;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="2&#x5D4C;&#x5957;&#x533A;&#x5757;" class="plugin-anchor" href="#2&#x5D4C;&#x5957;&#x533A;&#x5757;"><i class="fa fa-link" aria-hidden="true"></i></a>2.&#x5D4C;&#x5957;&#x533A;&#x5757;</h2>
+<p>&#x8FD9;&#x91CC;&#x6211;&#x53EA;&#x4ECB;&#x7ECD;&#x4E00;&#x4E0B;&#x6211;&#x5E38;&#x7528;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x4E5F;&#x662F;&#x4E2A;&#x4EBA;&#x8BA4;&#x4E3A;&#x6BD4;&#x8F83;&#x89C4;&#x8303;&#x7684;&#x4E00;&#x79CD;&#x65B9;&#x6CD5;&#xFF0C;&#x5C31;&#x662F;&#x7ED9;&#x533A;&#x5757;&#x7684;&#x4E0B;&#x4E00;&#x7EA7;&#x533A;&#x5757;&#x591A;&#x52A0;&#x4E00;&#x4E2A;&#x53F3;&#x5C16;&#x62EC;&#x53F7;</p>
+<blockquote>
+<p>&#x4E00;&#x7EA7;&#x5F15;&#x7528;</p>
+<blockquote>
+<p>&#x4E8C;&#x7EA7;&#x5F15;&#x7528;</p>
+<blockquote>
+<p>&#x4E09;&#x7EA7;&#x5F15;&#x7528;</p>
+<blockquote>
+<p>&#x56DB;&#x7EA7;&#x5F15;&#x7528;</p>
+<blockquote>
+<p>&#x4E94;&#x7EA7;&#x5F15;&#x7528;</p>
+<blockquote>
+<p>&#x516D;&#x7EA7;&#x5F15;&#x7528;</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<pre class="language-"><code>&gt; &#x4E00;&#x7EA7;&#x5F15;&#x7528;
+&gt;&gt; &#x4E8C;&#x7EA7;&#x5F15;&#x7528;
+&gt;&gt;&gt; &#x4E09;&#x7EA7;&#x5F15;&#x7528;
+&gt;&gt;&gt;&gt; &#x56DB;&#x7EA7;&#x5F15;&#x7528;
+&gt;&gt;&gt;&gt;&gt; &#x4E94;&#x7EA7;&#x5F15;&#x7528;
+&gt;&gt;&gt;&gt;&gt;&gt; &#x516D;&#x7EA7;&#x5F15;&#x7528;
+</code></pre><h1 id="&#x4E94;&#x3001;&#x4EE3;&#x7801;&#x5757;"><a name="&#x4E94;&#x3001;&#x4EE3;&#x7801;&#x5757;" class="anchor-navigation-ex-anchor" href="#&#x4E94;&#x3001;&#x4EE3;&#x7801;&#x5757;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x4E94;&#x3001;&#x4EE3;&#x7801;&#x5757;" class="plugin-anchor" href="#&#x4E94;&#x3001;&#x4EE3;&#x7801;&#x5757;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E94;&#x3001;&#x4EE3;&#x7801;&#x5757;</h1>
+<p>&#x5728;&#x53D1;&#x5E03;&#x4E00;&#x4E9B;&#x6280;&#x672F;&#x6587;&#x7AE0;&#x4F1A;&#x6D89;&#x53CA;&#x5C55;&#x793A;&#x4EE3;&#x7801;&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x8FD9;&#x65F6;&#x5019;&#x4EE3;&#x7801;&#x5757;&#x5C31;&#x663E;&#x5F97;&#x5C24;&#x4E3A;&#x91CD;&#x8981;&#x3002;</p>
+<h2 id="1&#x5C11;&#x91CF;&#x4EE3;&#x7801;"><a name="1&#x5C11;&#x91CF;&#x4EE3;&#x7801;" class="anchor-navigation-ex-anchor" href="#1&#x5C11;&#x91CF;&#x4EE3;&#x7801;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="1&#x5C11;&#x91CF;&#x4EE3;&#x7801;" class="plugin-anchor" href="#1&#x5C11;&#x91CF;&#x4EE3;&#x7801;"><i class="fa fa-link" aria-hidden="true"></i></a>1.&#x5C11;&#x91CF;&#x4EE3;&#x7801;</h2>
+<p>&#x5355;&#x884C;&#x4F7F;&#x7528;&#xFF0C;&#x76F4;&#x63A5;&#x7528;`&#x5305;&#x88F9;&#x8D77;&#x6765;&#x5C31;&#x884C;&#x4E86;</p>
+<p><code>System.out.println(args);</code></p>
+<pre class="language-"><code>  ` System.out.println(args); `
+</code></pre><h2 id="2&#x5927;&#x91CF;&#x4EE3;&#x7801;"><a name="2&#x5927;&#x91CF;&#x4EE3;&#x7801;" class="anchor-navigation-ex-anchor" href="#2&#x5927;&#x91CF;&#x4EE3;&#x7801;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="2&#x5927;&#x91CF;&#x4EE3;&#x7801;" class="plugin-anchor" href="#2&#x5927;&#x91CF;&#x4EE3;&#x7801;"><i class="fa fa-link" aria-hidden="true"></i></a>2.&#x5927;&#x91CF;&#x4EE3;&#x7801;</h2>
+<p>&#x9700;&#x8981;&#x591A;&#x884C;&#x4F7F;&#x7528;&#xFF0C;&#x7528;```&#x5305;&#x88F9;&#x8D77;&#x6765;</p>
+<pre class="language-"><code>  public static void main(String[] args) {
+      System.out.println(args);
+  }
+</code></pre><pre class="language-"><code>```
+
+ public static void main(String[] args) {
+    System.out.println(args);
+ }
+
+```
+</code></pre><h1 id="&#x516D;&#x3001;&#x94FE;&#x63A5;"><a name="&#x516D;&#x3001;&#x94FE;&#x63A5;" class="anchor-navigation-ex-anchor" href="#&#x516D;&#x3001;&#x94FE;&#x63A5;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x516D;&#x3001;&#x94FE;&#x63A5;" class="plugin-anchor" href="#&#x516D;&#x3001;&#x94FE;&#x63A5;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x516D;&#x3001;&#x94FE;&#x63A5;</h1>
+<p><a href="https://www.sxpcwlkj.com" title="&#x9655;&#x897F;&#x54C1;&#x521B;&#x7F51;&#x7EDC;&#x79D1;&#x6280;&#x6709;&#x9650;&#x516C;&#x53F8;" target="_blank">&#x54C1;&#x521B;&#x7F51;&#x7EDC;</a></p>
+<ol>
+<li>&#x884C;&#x5185;&#x5F0F;
+&#x94FE;&#x63A5;&#x7684;&#x6587;&#x5B57;&#x653E;&#x5728;[]&#x4E2D;&#xFF0C;&#x94FE;&#x63A5;&#x5730;&#x5740;&#x653E;&#x5728;&#x968F;&#x540E;&#x7684;()&#x4E2D;&#xFF0C;&#x94FE;&#x63A5;&#x4E5F;&#x53EF;&#x4EE5;&#x5E26;title&#x5C5E;&#x6027;&#xFF0C;&#x94FE;&#x63A5;&#x5730;&#x5740;&#x540E;&#x9762;&#x7A7A;&#x4E00;&#x683C;&#xFF0C;&#x7136;&#x540E;&#x7528;&#x5F15;&#x53F7;&#x5F15;&#x8D77;&#x6765;</li>
+</ol>
+<pre class="language-"><code>[&#x9655;&#x897F;&#x54C1;&#x521B;&#x7F51;&#x7EDC;]: https://www.sxpcwlkj.com &apos;&#x9655;&#x897F;&#x54C1;&#x521B;&#x7F51;&#x7EDC;&#x79D1;&#x6280;&#x6709;&#x9650;&#x516C;&#x53F8;&apos;
+
+[&#x9655;&#x897F;&#x54C1;&#x521B;&#x7F51;&#x7EDC;]: https://www.sxpcwlkj.com &quot;&#x9655;&#x897F;&#x54C1;&#x521B;&#x7F51;&#x7EDC;&#x79D1;&#x6280;&#x6709;&#x9650;&#x516C;&#x53F8;&quot;
+</code></pre><ol>
+<li>&#x53C2;&#x6570;&#x5F0F;
+&#x94FE;&#x63A5;&#x7684;&#x6587;&#x5B57;&#x653E;&#x5728;[]&#x4E2D;&#xFF0C;&#x94FE;&#x63A5;&#x5730;&#x5740;&#x653E;&#x5728;&#x968F;&#x540E;&#x7684;:&#x540E;&#xFF0C;&#x94FE;&#x63A5;&#x5730;&#x5740;&#x540E;&#x9762;&#x7A7A;&#x4E00;&#x683C;&#xFF0C;&#x7136;&#x540E;&#x7528;&#x5F15;&#x53F7;&#x5F15;&#x8D77;&#x6765;</li>
+</ol>
+<pre class="language-"><code>[&#x9655;&#x897F;&#x54C1;&#x521B;&#x7F51;&#x7EDC;]: https://www.sxpcwlkj.com &apos;&#x9655;&#x897F;&#x54C1;&#x521B;&#x7F51;&#x7EDC;&#x79D1;&#x6280;&#x6709;&#x9650;&#x516C;&#x53F8;&apos;
+[&#x9655;&#x897F;&#x54C1;&#x521B;&#x7F51;&#x7EDC;]: https://www.sxpcwlkj.com (&#x9655;&#x897F;&#x54C1;&#x521B;&#x7F51;&#x7EDC;&#x79D1;&#x6280;&#x6709;&#x9650;&#x516C;&#x53F8;)
+[&#x9655;&#x897F;&#x54C1;&#x521B;&#x7F51;&#x7EDC;]: &lt;https://www.sxpcwlkj.com&gt; &quot;&#x9655;&#x897F;&#x54C1;&#x521B;&#x7F51;&#x7EDC;&#x79D1;&#x6280;&#x6709;&#x9650;&#x516C;&#x53F8;&quot;
+</code></pre><h1 id="&#x4E03;&#x3001;&#x56FE;&#x7247;"><a name="&#x4E03;&#x3001;&#x56FE;&#x7247;" class="anchor-navigation-ex-anchor" href="#&#x4E03;&#x3001;&#x56FE;&#x7247;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x4E03;&#x3001;&#x56FE;&#x7247;" class="plugin-anchor" href="#&#x4E03;&#x3001;&#x56FE;&#x7247;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E03;&#x3001;&#x56FE;&#x7247;</h1>
+<p><code>![&#x56FE;&#x7247;](https://note.youdao.com/favicon.ico)</code></p>
+<p><img src="https://note.youdao.com/favicon.ico" alt="&#x56FE;&#x7247;"></p>
+<h2 id="1&#x884C;&#x5185;&#x5F0F;"><a name="1&#x884C;&#x5185;&#x5F0F;" class="anchor-navigation-ex-anchor" href="#1&#x884C;&#x5185;&#x5F0F;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="1&#x884C;&#x5185;&#x5F0F;" class="plugin-anchor" href="#1&#x884C;&#x5185;&#x5F0F;"><i class="fa fa-link" aria-hidden="true"></i></a>1.&#x884C;&#x5185;&#x5F0F;</h2>
+<p>&#x548C;&#x94FE;&#x63A5;&#x7684;&#x5F62;&#x5F0F;&#x5DEE;&#x4E0D;&#x591A;&#xFF0C;&#x56FE;&#x7247;&#x7684;&#x540D;&#x5B57;&#x653E;&#x5728;[]&#x4E2D;&#xFF0C;&#x56FE;&#x7247;&#x5730;&#x5740;&#x653E;&#x5728;&#x968F;&#x540E;&#x7684;()&#x4E2D;&#xFF0C;title&#x5C5E;&#x6027;&#xFF08;&#x56FE;&#x7247;&#x5730;&#x5740;&#x540E;&#x9762;&#x7A7A;&#x4E00;&#x683C;&#xFF0C;&#x7136;&#x540E;&#x7528;&#x5F15;&#x53F7;&#x5F15;&#x8D77;&#x6765;&#xFF09;,&#x6CE8;&#x610F;&#x7684;&#x662F;[]&#x524D;&#x8981;&#x52A0;&#x4E0A;!</p>
+<p><img src="https://www.sxpcwlkj.com/wp-content/uploads/2021/03/2021031602112614.png" alt="&#x56FE;&#x7247;" title="sxpcwlkj"></p>
+<p><code>![&#x56FE;&#x7247;](https://www.sxpcwlkj.com/wp-content/uploads/2021/03/2021031602112614.png &quot;sxpcwlkj&quot;)</code></p>
+<h1 id="&#x516B;&#x3001;&#x5206;&#x5272;&#x7EBF;"><a name="&#x516B;&#x3001;&#x5206;&#x5272;&#x7EBF;" class="anchor-navigation-ex-anchor" href="#&#x516B;&#x3001;&#x5206;&#x5272;&#x7EBF;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x516B;&#x3001;&#x5206;&#x5272;&#x7EBF;" class="plugin-anchor" href="#&#x516B;&#x3001;&#x5206;&#x5272;&#x7EBF;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x516B;&#x3001;&#x5206;&#x5272;&#x7EBF;</h1>
+<p>&#x5206;&#x5272;&#x7EBF;&#x53EF;&#x4EE5;&#x7531;* - _&#xFF08;&#x661F;&#x53F7;&#xFF0C;&#x51CF;&#x53F7;&#xFF0C;&#x5E95;&#x7EBF;&#xFF09;&#x8FD9;3&#x4E2A;&#x7B26;&#x53F7;&#x7684;&#x81F3;&#x5C11;3&#x4E2A;&#x7B26;&#x53F7;&#x8868;&#x793A;&#xFF0C;&#x6CE8;&#x610F;&#x81F3;&#x5C11;&#x8981;3&#x4E2A;&#xFF0C;&#x4E14;&#x4E0D;&#x9700;&#x8981;&#x8FDE;&#x7EED;&#xFF0C;&#x6709;&#x7A7A;&#x683C;&#x4E5F;&#x53EF;&#x4EE5;</p>
+<hr>
+<h2 id="----"><a name="----" class="anchor-navigation-ex-anchor" href="#----"><i class="fa fa-link" aria-hidden="true"></i></a><a name="----" class="plugin-anchor" href="#----"><i class="fa fa-link" aria-hidden="true"></i></a>- - -</h2>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<pre class="language-"><code>---
+- - -
+------
+***
+* * *
+******
+___
+_ _ _
+______
+</code></pre><h1 id="&#x4E5D;&#x3001;&#x5176;&#x4ED6;"><a name="&#x4E5D;&#x3001;&#x5176;&#x4ED6;" class="anchor-navigation-ex-anchor" href="#&#x4E5D;&#x3001;&#x5176;&#x4ED6;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x4E5D;&#x3001;&#x5176;&#x4ED6;" class="plugin-anchor" href="#&#x4E5D;&#x3001;&#x5176;&#x4ED6;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E5D;&#x3001;&#x5176;&#x4ED6;</h1>
+<h2 id="1&#x5F3A;&#x8C03;&#x5B57;&#x4F53;"><a name="1&#x5F3A;&#x8C03;&#x5B57;&#x4F53;" class="anchor-navigation-ex-anchor" href="#1&#x5F3A;&#x8C03;&#x5B57;&#x4F53;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="1&#x5F3A;&#x8C03;&#x5B57;&#x4F53;" class="plugin-anchor" href="#1&#x5F3A;&#x8C03;&#x5B57;&#x4F53;"><i class="fa fa-link" aria-hidden="true"></i></a>1.&#x5F3A;&#x8C03;&#x5B57;&#x4F53;</h2>
+<p>&#x4E00;&#x4E2A;&#x661F;&#x53F7;&#x6216;&#x8005;&#x662F;&#x4E00;&#x4E2A;&#x4E0B;&#x5212;&#x7EBF;&#x5305;&#x8D77;&#x6765;&#xFF0C;&#x4F1A;&#x8F6C;&#x6362;&#x4E3A;<em>&#x503E;&#x659C;&#xFF0C;&#x5982;&#x679C;&#x662F;2&#x4E2A;&#xFF0C;&#x4F1A;&#x8F6C;&#x6362;&#x4E3A;<strong>&#x52A0;&#x7C97;</strong></em></p>
+<p><em>md</em><br><strong>md</strong>
+<em>md</em><br> <strong>md</strong></p>
+<pre class="language-"><code>*md*    
+**md**
+_md_   
+ __md__
+</code></pre><h2 id="2&#x8F6C;&#x4E49;"><a name="2&#x8F6C;&#x4E49;" class="anchor-navigation-ex-anchor" href="#2&#x8F6C;&#x4E49;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="2&#x8F6C;&#x4E49;" class="plugin-anchor" href="#2&#x8F6C;&#x4E49;"><i class="fa fa-link" aria-hidden="true"></i></a>2.&#x8F6C;&#x4E49;</h2>
+<p>&#x57FA;&#x672C;&#x4E0A;&#x548C;js&#x8F6C;&#x4E49;&#x4E00;&#x6837;,\&#x52A0;&#x9700;&#x8981;&#x8F6C;&#x4E49;&#x7684;&#x5B57;&#x7B26;</p>
+<pre class="language-"><code> \\
+\*
+\+
+\-
+\`
+\_
+</code></pre><h2 id="3&#x5220;&#x9664;&#x7EBF;"><a name="3&#x5220;&#x9664;&#x7EBF;" class="anchor-navigation-ex-anchor" href="#3&#x5220;&#x9664;&#x7EBF;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="3&#x5220;&#x9664;&#x7EBF;" class="plugin-anchor" href="#3&#x5220;&#x9664;&#x7EBF;"><i class="fa fa-link" aria-hidden="true"></i></a>3.&#x5220;&#x9664;&#x7EBF;</h2>
+<p>&#x7528;~~&#x628A;&#x9700;&#x8981;&#x663E;&#x793A;&#x5220;&#x9664;&#x7EBF;&#x7684;&#x5B57;&#x7B26;&#x5305;&#x88F9;&#x8D77;&#x6765;</p>
+<p><del>&#x5220;&#x9664;</del></p>
+<p>//&#x4F8B;&#x5B50;&#x4E00;</p>
+<p><code>~~&#x5220;&#x9664;~~</code></p>
+<h1 id="&#x5341;&#x3001;&#x8868;&#x683C;"><a name="&#x5341;&#x3001;&#x8868;&#x683C;" class="anchor-navigation-ex-anchor" href="#&#x5341;&#x3001;&#x8868;&#x683C;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x5341;&#x3001;&#x8868;&#x683C;" class="plugin-anchor" href="#&#x5341;&#x3001;&#x8868;&#x683C;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5341;&#x3001;&#x8868;&#x683C;</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">123</th>
+<th style="text-align:center">234</th>
+<th style="text-align:right">345</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">abc</td>
+<td style="text-align:center">bcd</td>
+<td style="text-align:right">cde</td>
+</tr>
+<tr>
+<td style="text-align:left">abc</td>
+<td style="text-align:center">bcd</td>
+<td style="text-align:right">cde</td>
+</tr>
+<tr>
+<td style="text-align:left">abc</td>
+<td style="text-align:center">bcd</td>
+<td style="text-align:right">cde</td>
+</tr>
+<tr>
+<td style="text-align:left">//&#x4F8B;&#x5B50;&#x4E8C;</td>
+<td style="text-align:center"></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td style="text-align:left">123</td>
+<td style="text-align:center">234</td>
+<td style="text-align:right">345</td>
+</tr>
+<tr>
+<td style="text-align:left">:---</td>
+<td style="text-align:center">:---:</td>
+<td style="text-align:right">---:</td>
+</tr>
+<tr>
+<td style="text-align:left">abc</td>
+<td style="text-align:center">bcd</td>
+<td style="text-align:right">cde</td>
+</tr>
+<tr>
+<td style="text-align:left">abc</td>
+<td style="text-align:center">bcd</td>
+<td style="text-align:right">cde</td>
+</tr>
+<tr>
+<td style="text-align:left">abc</td>
+<td style="text-align:center">bcd</td>
+<td style="text-align:right">cde</td>
+</tr>
+<tr>
+<td style="text-align:left">//&#x4F8B;&#x5B50;&#x4E09;</td>
+<td style="text-align:center"></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td style="text-align:left">123</td>
+<td style="text-align:center">234</td>
+<td style="text-align:right">345</td>
+</tr>
+<tr>
+<td style="text-align:left">:-</td>
+<td style="text-align:center">:-:</td>
+<td style="text-align:right">-:</td>
+</tr>
+<tr>
+<td style="text-align:left">abc</td>
+<td style="text-align:center">bcd</td>
+<td style="text-align:right">cde</td>
+</tr>
+<tr>
+<td style="text-align:left">abc</td>
+<td style="text-align:center">bcd</td>
+<td style="text-align:right">cde</td>
+</tr>
+<tr>
+<td style="text-align:left">abc</td>
+<td style="text-align:center">bcd</td>
+<td style="text-align:right">cde</td>
+</tr>
+</tbody>
+</table>
+<pre class="language-"><code>|123|234|345|
+|:--|:-:|-:|
+|abc|bcd|cde|
+|abc|bcd|cde|
+|abc|bcd|cde|
+|//&#x4F8B;&#x5B50;&#x4E8C;|||
+|123|234|345|
+|:---|:---:|---:|
+|abc|bcd|cde|
+|abc|bcd|cde|
+|abc|bcd|cde|
+|//&#x4F8B;&#x5B50;&#x4E09;|||
+|123|234|345|
+|:-|:-:|-:|
+|abc|bcd|cde|
+|abc|bcd|cde|
+|abc|bcd|cde|
+</code></pre><h1 id="&#x590D;&#x9009;&#x6846;"><a name="&#x590D;&#x9009;&#x6846;" class="anchor-navigation-ex-anchor" href="#&#x590D;&#x9009;&#x6846;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x590D;&#x9009;&#x6846;" class="plugin-anchor" href="#&#x590D;&#x9009;&#x6846;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x590D;&#x9009;&#x6846;</h1>
+<ul>
+<li>[ ] &#x590D;&#x9009;&#x6846;</li>
+<li>[ ] &#x9009;&#x4E2D;&#x72B6;&#x6001;</li>
+</ul>
+<pre class="language-"><code>- [ ] &#x590D;&#x9009;&#x6846;
+- [x] &#x9009;&#x4E2D;&#x72B6;&#x6001;
+</code></pre><h1 id="&#x6362;&#x884C;"><a name="&#x6362;&#x884C;" class="anchor-navigation-ex-anchor" href="#&#x6362;&#x884C;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x6362;&#x884C;" class="plugin-anchor" href="#&#x6362;&#x884C;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6362;&#x884C;</h1>
+<p>&#x672C;&#x884C;&#x540E;&#x8FB9;&#x52A0;&#x4E24;&#x4E2A;&#x7A7A;&#x683C;</p>
+<p>&#x4F60;&#x597D;&#x670B;&#x53CB;&#xFF01;<br>123456</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../gitbook/" class="navigation navigation-prev " aria-label="Previous page: GitBook创建">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../sxpcwlkj/" class="navigation navigation-next " aria-label="Next page: 技术栈">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Markdown语法","level":"1.3","depth":1,"next":{"title":"技术栈","level":"1.4","depth":1,"path":"public/sxpcwlkj/README.md","ref":"public/sxpcwlkj/README.md","articles":[{"title":"项目后端","level":"1.4.1","depth":2,"path":"public/sxpcwlkj/admin/README.md","ref":"public/sxpcwlkj/admin/README.md","articles":[]},{"title":"项目前端","level":"1.4.2","depth":2,"path":"public/sxpcwlkj/ui/README.md","ref":"public/sxpcwlkj/ui/README.md","articles":[]},{"title":"项目移动端","level":"1.4.3","depth":2,"path":"public/sxpcwlkj/uniapp/README.md","ref":"public/sxpcwlkj/uniapp/README.md","articles":[]}]},"previous":{"title":"GitBook创建","level":"1.2","depth":1,"path":"public/gitbook/README.md","ref":"public/gitbook/README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","-livereload","splitter","github","github-buttons","toolbar","my-toolbar","donate","chart","graph","puml","katex","code","anchors","anchor-navigation-ex","prism","-highlight","-lunr","-search","search-pro","favicon","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-solarizedlight.css"]},"github":{"url":"https://github.com/shanpengnian"},"puml":{},"splitter":{},"search-pro":{},"code":{"copyButtons":true},"graph":{},"donate":{"alipay":"","alipayText":"支付宝打赏","button":"反馈","title":"","wechat":"https://www.sxpcwlkj.com/wp-content/uploads/2021/09/2021091913435610.jpeg","wechatText":"微信扫码"},"sitemap-general":{"prefix":"https://www.mapull.com/gitbook/comscore/"},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"favicon":{"shortcut":"assets/images/favicon.ico","bookmark":"assets/images/favicon.ico","appleTouch":"assets/images/apple-touch-icon.png","appleTouchMore":{"120x120":"assets/images/apple-touch-icon-120x120.png","180x180":"assets/images/apple-touch-icon-180x180.png"}},"github-buttons":{"buttons":[{"user":"shanpengnian","repo":"sxpcwlkj-book","type":"star","size":"large"},{"user":"shanpengnian","type":"follow","width":"230","count":false}]},"my-toolbar":{"buttons":[{"label":"下载PDF","icon":"fa fa-file-pdf-o","url":"https://www.mapull.com/gitbook/comscore/book.pdf","position":"left","text":"下载PDF","target":"_blank"}]},"versions":{"options":[{"value":"https://www.mapull.com/gitbook/api/","text":"Theme API"},{"value":"https://www.mapull.com/gitbook/comscore/","text":"Theme comscore","selected":true}]},"toolbar":{},"edit-link":{"base":"https://gitee.com/shanpengnian","label":"Edit This Page"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"chart":{"type":"c3"}},"theme":"default","author":"xijue","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"SXPCWLKJ GitBook","language":"zh-hans","links":{"sidebar":{"品创网络":"https://www.sxpcwlkj.com"}},"gitbook":"*","description":"品创网络的Gitbook的配置和使用"},"file":{"path":"public/markdown/README.md","mtime":"2022-06-20T10:25:40.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-06-20T11:18:11.143Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-toolbar/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-my-toolbar/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

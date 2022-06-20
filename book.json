@@ -1,0 +1,113 @@
+{
+    "title": "SXPCWLKJ GitBook",
+    "author": "xijue",
+    "description": "品创网络的Gitbook的配置和使用",
+    "language": "zh-hans",
+    "links": {
+        "sidebar": {
+            "品创网络": "https://www.sxpcwlkj.com"
+        }
+    },
+    "plugins": [
+        "-sharing",
+        "-livereload",
+        "splitter",
+        "github",
+        "github-buttons",
+        "toolbar",
+        "my-toolbar",
+        "donate",
+        "chart",
+        "graph",
+        "puml",
+        "katex",
+        "code",
+        "anchors",
+        "anchor-navigation-ex",
+        "prism",
+        "-highlight",
+        "-lunr",
+        "-search",
+        "search-pro",
+        "favicon"
+    ],
+    "pluginsConfig": {
+        "anchor-navigation-ex": {
+            "showLevel": false,
+            "showGoTop": true
+        },
+        "code": {
+            "copyButtons": true
+        },
+        "sitemap-general": {
+            "prefix": "https://www.mapull.com/gitbook/comscore/"
+        },
+        "my-toolbar": {
+            "buttons": [
+                {
+                    "label": "下载PDF",
+                    "icon": "fa fa-file-pdf-o",
+                    "url": "https://www.mapull.com/gitbook/comscore/book.pdf",
+                    "position": "left",
+                    "text": "下载PDF",
+                    "target": "_blank"
+                }
+            ]
+        },
+        "donate": {
+            "wechat": "https://www.sxpcwlkj.com/wp-content/uploads/2021/09/2021091913435610.jpeg",
+            "button": "反馈",
+            "wechatText": "微信扫码"
+        },
+        "versions": {
+            "options": [
+                {
+                    "value": "https://www.mapull.com/gitbook/api/",
+                    "text": "Theme API"
+                },
+                {
+                    "value": "https://www.mapull.com/gitbook/comscore/",
+                    "text": "Theme comscore",
+                    "selected": true
+                }
+            ]
+        },
+        "github": {
+            "url": "https://github.com/shanpengnian"
+        },
+        "github-buttons": {
+            "buttons": [
+                {
+                    "user": "shanpengnian",
+                    "repo": "sxpcwlkj-book",
+                    "type": "star",
+                    "size": "large"
+                },
+                {
+                    "user": "shanpengnian",
+                    "type": "follow",
+                    "width": "230",
+                    "count": false
+                }
+            ]
+        },
+        "edit-link": {
+            "base": "https://gitee.com/shanpengnian",
+            "label": "Edit This Page"
+        },
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-solarizedlight.css"
+            ]
+        },
+        "favicon": {
+            "shortcut": "assets/images/favicon.ico",
+            "bookmark": "assets/images/favicon.ico",
+            "appleTouch": "assets/images/apple-touch-icon.png",
+            "appleTouchMore": {
+                "120x120": "assets/images/apple-touch-icon-120x120.png",
+                "180x180": "assets/images/apple-touch-icon-180x180.png"
+            }
+        }
+    }
+}
